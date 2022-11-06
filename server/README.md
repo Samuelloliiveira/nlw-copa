@@ -22,3 +22,9 @@
  - new Date().toISOString()
  - Refresh Token -> Para deixar o usuário sempre logado na aplicação
  - trocar  Pool para Poll  -> Era para ser Bolão, mas a tradução está errada (risos)
+
+### Diagrama ERD
+
+
+
+![index_imagem](https://github.com/Samuelloliiveira/nlw-copa/blob/main/image/diagrama-ERD.png?raw=true)
