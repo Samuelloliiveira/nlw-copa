@@ -1,24 +1,24 @@
-MERMAID - geração de diagramas através de código
+# API/Back-end do projeto, desenvolvido em Node.js
 
-CORS - é um mecanismo de segurança para definir quais aplicações estão autorizadas a acessar os dados do nosso backend. Precisamos configurar o cors se não nosso frontend não vai conseguir consumir os dados futuramente.
+### Informações importantes
 
-SEED-BD: É um arquivo que popula o BD com alguns dados fictícios, princialmente para trabalhar em ambiente de desenvolvimento
+- MERMAID - geração de diagramas através de código
 
-Zod - biblioteca de validação
+- CORS - é um mecanismo de segurança para definir quais aplicações estão autorizadas a acessar os dados do nosso backend. Precisamos configurar o cors se não nosso frontend não vai conseguir consumir os dados futuramente.
 
-JWT - Json Web Token -> é um padrão para autenticação e troca de informações
+- SEED-BD: É um arquivo que popula o BD com alguns dados fictícios, princialmente para trabalhar em ambiente de desenvolvimento
 
+- Zod - biblioteca de validação
 
-Extras:
-    - Na Web a pessoa precisa fazer login primeiro para ser dona do bolão e ai no banco de dados não vai permitir mais ownerId nulo (?)
+- JWT - Json Web Token -> é um padrão para autenticação e troca de informações
 
+### Extras que podem deixar a aplicação ainda melhor:
 
-// new Date().toISOString()
+- Na Web a pessoa precisa fazer login primeiro para ser dona do bolão e aí no banco de dados não vai permitir mais ownerId nulo(?) (Pesquisar como fazer autenticação social na web)
 
-// Refresh Token -> Para deixar o usuário sempre logado na aplicação por exemplo
+##
+### Anotações
 
-
-
-
-// trocar depois de Pool para Poll kkk
-// adicionar login na versão web (para estudar como fazer autenticação social na web)
+ - new Date().toISOString()
+ - Refresh Token -> Para deixar o usuário sempre logado na aplicação
+ - trocar  Pool para Poll  -> Era para ser Bolão, mas a tradução está errada (risos)
