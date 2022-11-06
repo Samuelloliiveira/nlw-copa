@@ -1,10 +1,11 @@
+import { useState } from "react"
 import { Heading, useToast, VStack } from "native-base"
 import { useNavigation } from "@react-navigation/native"
 
 import { Header } from "../components/Header"
 import { Input } from "../components/Input"
 import { Button } from "../components/Button"
-import { useState } from "react"
+
 import { api } from "../services/api"
 
 export function Find() {
@@ -66,7 +67,11 @@ export function Find() {
 
     return (
         <VStack flex={1} bgColor="gray.900">
-            <Header title="Buscar por código" showBackButton />
+            <Header
+                title="Buscar por código"
+                showBackButton
+                onShare={() => { }}
+            />
 
             <VStack mt={8} mx={5} alignItems="center">
 
